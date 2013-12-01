@@ -75,11 +75,20 @@ body,html {
 }
 
 .front .sidebar-first {
-	width: 60%;
-	float: left;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+.left-col-background-image img {
+	height: 100%;
 }
 
 .front #main-content {
-	width: 40%;
-	float: left;
+	width: 500px;
+	position: absolute;
+	right: 0;
+	top: 0;
+	z-index: 10;
 }
