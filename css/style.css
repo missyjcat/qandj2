@@ -92,3 +92,15 @@ body,html {
 	top: 0;
 	z-index: 10;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width:640px) {
+	.front .sidebar-first {
+		display: none;
+	}
+
+	.front #main-content {
+		width: 100%;
+	}
+}
