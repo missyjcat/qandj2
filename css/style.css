@@ -63,9 +63,15 @@ GLOBAL STYLES
          url('fonts/AvenirNextCondensed-Regular.svg#Avenir_Next_Condensed_Regular') format('svg');
 }
 
-body {
+body,html {
 	background-color: #000;
-
+	font-family: 'AvenirNextCondensed';
+	font-size: 16px;
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
 }
 
 .front .sidebar-first {
