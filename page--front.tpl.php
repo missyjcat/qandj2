@@ -19,6 +19,9 @@
   <?php endif; ?>
 
   <div role="main" id="main-content">
+    <div class="intro-background">
+      <img src="sites/all/themes/qandj2/img/tiled-flower-bg.jpg">
+    </div>
 
     <?php if ($action_links): ?>
       <ul class="action-links"><?php print render($action_links); ?></ul>
@@ -37,7 +40,7 @@
 
 
     <?php print render($page['content_pre']); ?>
-
+    
     <?php print render($page['content']); ?>
 
     <?php print render($page['content_post']); ?>
