@@ -2,233 +2,342 @@
 GLOBAL STYLES
 */
 
-/* Regular */
-@font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-italic-webfont.eot');
-    src: url('fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-italic-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
-    font-weight: normal;
-    font-style: italic;
+    /* Regular */
+    @font-face {
+        font-family: 'League Gothic';
+        src: url('fonts/leaguegothic-italic-webfont.eot');
+        src: url('fonts/leaguegothic-italic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/leaguegothic-italic-webfont.woff') format('woff'),
+             url('fonts/leaguegothic-italic-webfont.ttf') format('truetype'),
+             url('fonts/leaguegothic-italic-webfont.svg#league_gothic_italicregular') format('svg');
+        font-weight: normal;
+        font-style: italic;
 
-}
+    }
 
-/* Italic */
-@font-face {
-    font-family: 'League Gothic';
-    src: url('fonts/leaguegothic-regular-webfont.eot');
-    src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    /* Italic */
+    @font-face {
+        font-family: 'League Gothic';
+        src: url('fonts/leaguegothic-regular-webfont.eot');
+        src: url('fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/leaguegothic-regular-webfont.woff') format('woff'),
+             url('fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
+             url('fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+        font-weight: normal;
+        font-style: normal;
 
-}
+    }
 
-/* Condensed */
-@font-face {
-    font-family: 'League Gothic Condensed';
-    src: url('fonts/leaguegothic-condensed-regular-webfont.eot');
-    src: url('fonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-condensed-regular-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    /* Condensed */
+    @font-face {
+        font-family: 'League Gothic Condensed';
+        src: url('fonts/leaguegothic-condensed-regular-webfont.eot');
+        src: url('fonts/leaguegothic-condensed-regular-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/leaguegothic-condensed-regular-webfont.woff') format('woff'),
+             url('fonts/leaguegothic-condensed-regular-webfont.ttf') format('truetype'),
+             url('fonts/leaguegothic-condensed-regular-webfont.svg#league_gothic_condensed-Rg') format('svg');
+        font-weight: normal;
+        font-style: normal;
 
-}
+    }
 
-/* Condensed Italic */
-@font-face {
-    font-family: 'League Gothic Condensed';
-    src: url('fonts/leaguegothic-condensed-italic-webfont.eot');
-    src: url('fonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/leaguegothic-condensed-italic-webfont.woff') format('woff'),
-         url('fonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
-         url('fonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
-    font-weight: normal;
-    font-style: italic;
-}
+    /* Condensed Italic */
+    @font-face {
+        font-family: 'League Gothic Condensed';
+        src: url('fonts/leaguegothic-condensed-italic-webfont.eot');
+        src: url('fonts/leaguegothic-condensed-italic-webfont.eot?#iefix') format('embedded-opentype'),
+             url('fonts/leaguegothic-condensed-italic-webfont.woff') format('woff'),
+             url('fonts/leaguegothic-condensed-italic-webfont.ttf') format('truetype'),
+             url('fonts/leaguegothic-condensed-italic-webfont.svg#league_gothic_condensed_itaRg') format('svg');
+        font-weight: normal;
+        font-style: italic;
+    }
 
-/* Avenir Regular */
-@font-face {
-    font-family: 'AvenirNextCondensed';
-    src: url('fonts/AvenirNextCondensed-Regular.eot');
-    src: url('fonts/AvenirNextCondensed-Regular.eot?#iefix') format('embedded-opentype'),
-         url('fonts/AvenirNextCondensed-Regular.woff') format('woff'),
-         url('fonts/AvenirNextCondensed-Regular.ttf') format('truetype'),
-         url('fonts/AvenirNextCondensed-Regular.svg#Avenir_Next_Condensed_Regular') format('svg');
-}
+    /* Avenir Regular */
+    @font-face {
+        font-family: 'AvenirNextCondensed';
+        src: url('fonts/AvenirNextCondensed-Regular.eot');
+        src: url('fonts/AvenirNextCondensed-Regular.eot?#iefix') format('embedded-opentype'),
+             url('fonts/AvenirNextCondensed-Regular.woff') format('woff'),
+             url('fonts/AvenirNextCondensed-Regular.ttf') format('truetype'),
+             url('fonts/AvenirNextCondensed-Regular.svg#Avenir_Next_Condensed_Regular') format('svg');
+    }
 
-body,html {
-	background-color: #000;
-	font-family: 'AvenirNextCondensed';
-	font-size: 16px;
-	color: #fff;
-	height: 100%;
-	width: 100%;
-	margin: 0;
-	padding: 0;
-    overflow: hidden;
-}
+    body,html {
+    	background-color: #000;
+    	font-family: 'AvenirNextCondensed';
+    	font-size: 16px;
+    	color: #fff;
+    	height: 100%;
+    	width: 100%;
+    	margin: 0;
+    	padding: 0;
+        overflow: hidden;
+    }
 
-p {
-    font-size: 1.2em;
-}
+    p {
+        font-size: 1.2em;
+    }
 
-h1, h2 {
-    padding: 10px 0 15px 0;
-    text-transform: uppercase;
-}
+    h1, h2 {
+        padding: 10px 0 15px 0;
+        text-transform: uppercase;
+    }
 
-h1 {
-    font-family: 'League Gothic', arial, sans-serif;
-    font-size: 2.5em;
-    font-weight: normal;
-}
+    h1 {
+        font-family: 'League Gothic', arial, sans-serif;
+        font-size: 2.5em;
+        font-weight: normal;
+    }
 
-h2 {
-    font-family: 'AvenirNextCondensed', arial, sans-serif;
-    font-size: 1.5em;
-}
+    h2 {
+        font-family: 'AvenirNextCondensed', arial, sans-serif;
+        font-size: 1.5em;
+    }
 
 /* MAIN PAGE */
 
-.mobile-nav {
-    display: none;
-}
+    .mobile-nav {
+        display: none;
+    }
 
-.main-nav {
-    height: 91px;
-    padding-top: 20px;
-    background: transparent url('../img/50pct-black.png');
-    position: fixed;
-    z-index: 100;
-    width: 600px;
-}
+    .main-nav {
+        height: 91px;
+        padding-top: 20px;
+        background: transparent url('../img/50pct-black.png');
+        position: fixed;
+        z-index: 100;
+        width: 600px;
+    }
 
-.main-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0 auto;
-    width: 580px;
-}
+    .main-nav ul {
+        list-style: none;
+        padding: 0;
+        margin: 0 auto;
+        width: 580px;
+    }
 
-.main-nav ul li {
-    float: left;
-}
+    .main-nav ul li {
+        float: left;
+    }
 
-.main-nav a {
-    display: block;
-}
+    .main-nav a {
+        display: block;
+    }
 
-.main-nav .story-link {
-    display: block;
-    width: 80px;
-    height: 20px;
-    background: transparent url('../img/menu-sprite.png') no-repeat -20px -25px;
-    margin-top: 27px;
-}
+    .main-nav a span {
+        opacity: 0;
+        filter:Alpha(opacity=0);
+        -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    }
 
-.main-nav .event-link {
-    display: block;
-    width: 100px;
-    height: 20px;
-    background: transparent url('../img/menu-sprite.png') no-repeat -100px -25px;
-    margin-top: 27px;
-}
+    .main-nav .story-link {
+        display: block;
+        width: 80px;
+        height: 20px;
+        background: transparent url('../img/menu-sprite.png') no-repeat -20px -25px;
+        margin-top: 27px;
+    }
 
-.main-nav .qandj-link {
-    display: block;
-    width: 236px;
-    height: 86px;
-    background: transparent url('../img/menu-sprite.png') no-repeat -206px 0px;
-}
+    .main-nav .story-hover {
+        width: 80px;
+        height: 20px;
+        background: transparent url(/sites/all/themes/qandj2/img/menu-sprite.png) no-repeat -20px -62px;
+        margin-top: 27px;
+        display: none;
+    }
 
-.main-nav .front .sidebar-first {
-	width: 100%;
-	position: fixed;
-	left: 0;
-	top: 0;
-}
+    .main-nav .active .story-hover, .main-nav .active .event-hover, .main-nav .active .registry-hover, .main-nav .active .rsvp-hover {
+        display: block !important;
+    }
 
-.main-nav .registry-link {
-    background: transparent url('../img/menu-sprite.png') no-repeat -441px -25px;
-    width: 80px;
-    height: 20px;
-    display: block;
-    margin-top: 27px;
-}
+    .main-nav .event-link {
+        display: block;
+        width: 100px;
+        height: 20px;
+        background: transparent url('../img/menu-sprite.png') no-repeat -100px -25px;
+        margin-top: 27px;
+    }
 
-.main-nav .rsvp-link {
-    background: transparent url('../img/menu-sprite.png') no-repeat -519px -25px;
-    width: 80px;
-    height: 20px;
-    display: block;
-    margin-top: 27px;
-}
+    .main-nav .event-hover {
+        width: 100px;
+        height: 20px;
+        background: transparent url(/sites/all/themes/qandj2/img/menu-sprite.png) no-repeat -100px -62px;
+        margin-top: 27px;
+        display: none;
+    }
 
-.left-col-background-image img {
-	height: 100%;
-	position: relative;
-    left: -100px;
-}
+    .main-nav .qandj-link {
+        display: block;
+        width: 236px;
+        height: 86px;
+        background: transparent url('../img/menu-sprite.png') no-repeat -206px 0px;
+    }
 
-.front #main-content {
-	width: 600px;
-    height: 100%;
-	position: absolute;
-	right: 0;
-	top: 0;
-	z-index: 10;
-	background-color: #000;
-    overflow: auto;
-}
+    .main-nav .front .sidebar-first {
+    	width: 100%;
+    	position: fixed;
+    	left: 0;
+    	top: 0;
+    }
 
-.intro-background {
-    height: 100%;
-    width: 600px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    overflow: hidden;
-    z-index: -10;
-}
+    .main-nav .registry-link {
+        background: transparent url('../img/menu-sprite.png') no-repeat -441px -25px;
+        width: 80px;
+        height: 20px;
+        display: block;
+        margin-top: 27px;
+    }
 
-.intro-message {
-    background: transparent url('../img/intro-frame.png') no-repeat 0 0;
-    width: 446px;
-    height: 297px;
-    margin: 0 auto;
-    position: relative;
-    top: 200px;
-}
+    .main-nav .registry-hover {
+        width: 80px;
+        height: 20px;
+        background: transparent url(/sites/all/themes/qandj2/img/menu-sprite.png) no-repeat -441px -62px;
+        margin-top: 27px;
+        display: none;
+    }
 
-.intro-section {
-    min-height: 600px;
-}
+    .main-nav .rsvp-link {
+        background: transparent url('../img/menu-sprite.png') no-repeat -519px -25px;
+        width: 80px;
+        height: 20px;
+        display: block;
+        margin-top: 27px;
+    }
 
-.intro-message p {
-    width: 400px;
-    padding: 135px 25px;
-    margin: 0;
-    text-transform: uppercase;
-    font-size: 1.2em;
-    text-align: center;
-}
+    .main-nav .rsvp-hover {
+        width: 80px;
+        height: 20px;
+        background: transparent url(/sites/all/themes/qandj2/img/menu-sprite.png) no-repeat -519px -62px;
+        margin-top: 27px;
+        display: none;
+    }
+
+    .left-col-background-image img {
+    	height: 100%;
+    	position: relative;
+        left: -100px;
+    }
+
+    .front #main-content {
+    	width: 600px;
+        height: 100%;
+    	position: absolute;
+    	right: 0;
+    	top: 0;
+    	z-index: 10;
+    	background-color: #000;
+        overflow: auto;
+    }
+
+    .intro-background {
+        height: 100%;
+        width: 600px;
+        position: absolute;
+        top: 0;
+        right: 0;
+        overflow: hidden;
+        z-index: -10;
+    }
+
+    .intro-message {
+        background: transparent url('../img/intro-frame.png') no-repeat 0 0;
+        width: 446px;
+        height: 297px;
+        margin: 0 auto;
+        position: relative;
+        top: 200px;
+    }
+
+    .intro-section {
+        min-height: 600px;
+    }
+
+    .intro-message p {
+        width: 400px;
+        padding: 135px 25px;
+        margin: 0;
+        text-transform: uppercase;
+        font-size: 1.2em;
+        text-align: center;
+    }
 
 /* STORY SECTION */
 
-.story-section {
-    text-align: center;
-}
+    .story-section {
+        text-align: center;
+        margin-bottom: 90px;
+    }
 
-.story-divider {
-    width: 90%;
-}
+    .story-divider {
+        width: 90%;
+    }
+
+/* EVENT SECTION */
+
+    .event-table {
+        display: table;
+        width: 100%;
+    }
+
+    .event-row {
+        display: table-row;
+    }
+
+    .event-left, .event-right {
+        display: table-cell;
+        width: 63px;
+    }
+
+    .event-left {
+        background: transparent url('../img/left-semicircle.png') repeat-y;
+    }
+
+    .event-right {
+        background: transparent url('../img/right-semicircle.png') repeat-y;
+    }
+
+    .event-center {
+        text-align: center;
+        display: table-cell;
+    }
+
+    .eventinfo-section {
+        margin-bottom: 50px;
+    }
+
+/* REGISTRY SECTION */
+
+    .registry-section {
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .registry-frame {
+        width: 100%;
+        padding-top: 4.5%;
+    }
+
+    .registry-section .images img {
+        max-width: 40%;
+        margin: 10px;
+    }
+
+    .registry-section .images {
+        margin-top: -52%;
+        margin-bottom: 100px
+    }
+
+    .registry-section .images .bloomingdales {
+        position: relative;
+        top: -6px;
+    }
+
+    .registry-title {
+        display: none;
+    }
+
 
 /* MEDIA QUERIES */
 
@@ -236,6 +345,7 @@ h2 {
     .left-col-background-image img {
         left: -300px;
     }
+
 }
 
 @media screen and (max-width:1020px) {
@@ -250,6 +360,11 @@ h2 {
     .main-nav {
         width: 100%;
     }
+
+    .registry-section {
+        padding-top: 30px;
+    }
+
 }
 
 @media screen and (max-width:600px) {
@@ -308,5 +423,35 @@ h2 {
 
     .intro-section {
         min-height: 400px;
+    }
+
+    .event-left, .event-right {
+        background: none;
+    }
+
+    .registry-section {
+        padding-top: 0;
+    }
+
+    .registry-section .background {
+        display: none;
+    }
+
+    .registry-section .images {
+        top: 0;
+        margin-top: 30px;
+    }
+
+    .registry-section .images img {
+        max-width: 100%;
+        width: 75%;
+    }
+
+    .registry-frame {
+        padding-top: 30px;
+    }
+
+    .registry-title {
+        display: block;
     }
 }
