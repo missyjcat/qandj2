@@ -79,7 +79,7 @@ GLOBAL STYLES
         font-size: 1.2em;
     }
 
-    h1, h2 {
+    h1, h2, h3, .webform-component > label {
         padding: 10px 0 15px 0;
         text-transform: uppercase;
     }
@@ -90,14 +90,34 @@ GLOBAL STYLES
         font-weight: normal;
     }
 
-    h2 {
+    h2, .webform-component > label {
+        font-family: 'League Gothic', arial, sans-serif;
+        font-size: 1.8em;
+        font-weight: 400;
+    }
+
+    h2.title {
+        text-align: center;
+    }
+
+    h3 {
         font-family: 'AvenirNextCondensed', arial, sans-serif;
         font-size: 1.5em;
+        font-weight: 600;
+    }
+
+    a {
+        text-decoration: underline;
+        color: #fff;
+    }
+
+    .messages a {
+        color: purple;
     }
 
 /* MAIN PAGE */
 
-    .mobile-nav {
+    .mobile-nav, .mobile-photo {
         display: none;
     }
 
@@ -214,9 +234,10 @@ GLOBAL STYLES
     }
 
     .left-col-background-image img {
-    	height: 100%;
-    	position: relative;
+    	height: auto;
+    	position: absolute;
         left: -100px;
+        width: 82%;
     }
 
     .front #main-content {
@@ -266,11 +287,18 @@ GLOBAL STYLES
 
     .story-section {
         text-align: center;
-        margin-bottom: 90px;
+        padding-bottom: 90px;
+        margin: 0 auto;
+        width: 90%;
+    }
+
+    .story-section p {
+        font-size: 1.3em;
+        text-align: left;
     }
 
     .story-divider {
-        width: 90%;
+        width: 100%;
     }
 
 /* EVENT SECTION */
@@ -303,7 +331,7 @@ GLOBAL STYLES
     }
 
     .eventinfo-section {
-        margin-bottom: 50px;
+        padding-bottom: 50px;
     }
 
 /* REGISTRY SECTION */
@@ -339,21 +367,84 @@ GLOBAL STYLES
     }
 
 
+/* RSVP PAGE */
+
+    .rsvp-section {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .front .messages {
+        position: fixed;
+        z-index: 10000;
+        top: 0;
+        width: 520px;
+    }
+
+    .messages:before {
+        content: 'Click to close this message';
+    }
+
+    .webform-client-form {
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 150px;
+    }
+
+    .webform-component-radios > label {
+        display: block;
+    }
+
+    .webform-component-radios div div label {
+        margin-left: 5px;
+    }
+
+    .form-radios div {
+        display: block;
+    }
+
+    .form-item {
+        margin: 40px 0;
+    }
+
+    #user-login-form {
+        text-align: center;
+    }
+
+    #user-login-form ul {
+        display: none;
+    }
+
+    #user-login-form .form-required {
+        color: #fff;
+        margin: 20px 0;
+        text-transform: uppercase;
+    }
+
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width:1300px) {
     .left-col-background-image img {
         left: -300px;
+        width: 100%;
     }
 
 }
 
 @media screen and (max-width:1020px) {
+
+    .mobile-photo {
+        display: block;
+    }
+
 	.front .sidebar-first {
 		display: none;
 	}
 
-	.front #main-content, .front .intro-background {
+	.front #main-content, .front .intro-background, .front .messages {
 		width: 100%;
 	}
 
@@ -368,6 +459,11 @@ GLOBAL STYLES
 }
 
 @media screen and (max-width:600px) {
+
+    body, html, .front #main-content {
+        overflow: visible;
+    }
+
     .front .main-nav {
         display: none;
     }
